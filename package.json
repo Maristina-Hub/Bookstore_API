@@ -1,0 +1,34 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "\"Crud Assignment\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "\"CRUD",
+    "POSTGRES\""
+  ],
+  "author": "Chiamaka",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@babel/preset-env": "^7.14.4",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "pg": "^8.6.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
